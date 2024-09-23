@@ -1,0 +1,59 @@
+@media (max-width: 840px) {
+  .m-md-top {
+    padding-top: 8rem !important;
+  }
+  .fs-7 {
+    font-size: 2.5rem;
+  }
+  /* +++++++++++++++++++++++ HERO ++++++++++++++++++ */
+  #hero {
+    height: auto;
+  }
+  .card-inside {
+    width: 100%;
+  }
+  .card-btn {
+    width: 100%;
+  }
+  .card-pt-0 {
+    padding-top: 3px;
+  }
+  /* +++++++++++++++++++++++ Discount Items +++++++++++++++++ */
+  .fs-8 {
+    font-size: calc(2.5rem + 1.5vw) !important;
+  }
+  .fs-8 {
+    font-size: calc(3.5rem + 11.5vw);
+  }
+  .width{
+    width: 30%;
+  }
+  .border-start{
+    border-left: 0 !important;
+  }
+}
+@media (max-width: 425px) {
+  .mmt-1 {
+    margin-top: 5.5rem !important;
+  }
+  .m-md-top {
+    padding-top: 2rem !important;
+  }
+  /* +++++++++++++++++++++++ HERO ++++++++++++++++++ */
+  .card-pt-0 {
+    padding-top: 0;
+  }
+  .text-mob-center {
+    text-align: center;
+  }
+  /* +++++++++++++++++++++++ Discount Items +++++++++++++++++ */
+  .fs-8 {
+    font-size: calc(3.5rem + 1.5vw) !important;
+  }
+  .fs-9 {
+    font-size: calc(3rem);
+  }
+  .width{
+    width: 45%;
+  }
+}

@@ -1,0 +1,281 @@
+:root {
+  --back-color: #ffffff;
+  --yellow-color: #ffb30e;
+  --yellow-light-color: #ffd36de8;
+  --lighter-pink: #f17228;
+  --light-pink: #ff7a7a;
+  --gradient:linear-gradient(#FFAE00, transparent);
+
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: my-font-pro;
+  src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+body {
+  font-family: my-font-pro;
+}
+/* ====================  NavBar  =============================== */
+.form-control:focus {
+  box-shadow: none;
+}
+.header-input {
+  border-radius: 10px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.head-btn {
+  box-shadow: -3px 4px 10px 1px var(--yellow-color);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.head-btn:hover {
+  background: var(--yellow-color);
+  box-shadow: -2px 1px 5px 0.1rem #000;
+}
+/* ====================  HERO  =============================== */
+#hero {
+  background: var(--yellow-color);
+  height: 40rem;
+}
+.img-shadow {
+  text-shadow: 10px 10px 10px black;
+}
+/* <<<<<<<<<<<<<<<<<<<<<<< Hero Btn >>>>>>>>>>>>>>>>>>>> */
+.btn-focuse {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.btn-focus:active {
+  border-color: #fef1e9 !important ;
+}
+.btn-hover-2:hover{
+  color: var(--lighter-pink) !important;
+}
+
+.btn-focus:focus {
+  background: #fef1e9;
+  color: #f17228;
+}
+.bg-linear {
+  background: linear-gradient(#ff7a7a, #f65900);
+}
+.btn:hover {
+  color: #fef1e9;
+}
+.card-inside {
+  width: 55%;
+}
+/* +++++++++++++++++++++++ Discount Items +++++++++++++++++ */
+.discount__remaining{
+  background: #fef1e9;
+  color: #f17228;
+}
+.discount__offer{
+  bottom: 0;
+  background: var(--yellow-color);
+  border-top-right-radius: 20px;
+  border-end-start-radius: 5%;
+}
+/* +++++++++++++++++++++++ Popular  Items Order Btn +++++++++++++++++ */
+.slider{
+  z-index: 999;
+  background: #000;
+}
+.order-btn:hover {
+  background: black;
+}
+.btn-shadow{
+  transition: 0.5s !important;
+  box-shadow: 0 0  10px .1rem var(--back-color);
+  -webkit-transition: 0.5s !important;
+  -moz-transition: 0.5s !important;
+  -ms-transition: 0.5s !important;
+  -o-transition: 0.5s !important;
+}
+/* +++++++++++++++++++++++++ Featured Restaurant ++++++++++++++++++++ */
+.featured-items-1 {
+  background: #fef1e9;
+  color: #f17228;
+}
+.featured-items-2{
+  background-color: #e4f1d8;
+  color: #79B93C;
+}
+.card__off{
+  top: 15px;
+}
+.hover-class:hover{
+  color: #e4f1d8 !important;
+  background-color: #79B93C;
+}
+/* ++++++++++++++++++++++ Rounded  +++++++++++++++++ */
+.btn-2{
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: var(--yellow-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.btn-2:hover{
+  transform: scale(.9);
+  -webkit-transform: scale(.9);
+  -moz-transform: scale(.9);
+  -ms-transform: scale(.9);
+  -o-transform: scale(.9);
+}
+.btn-2::after{
+  content: ""!important;
+}
+/* ++++++++++++++++++++ Add FOr App ++++++++++++++++ */
+.img-width-0_2{
+  width: 80%;
+}
+.shadow-yellow{
+  box-shadow: 1px 5px 50px 2px var(--yellow-light-color);
+}
+.font-gradient{
+  background: linear-gradient(45deg,#FB3C00,#FFB800); /* Define the gradient */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text color transparent */
+  background-clip: text; /* For non-WebKit browsers */
+  color: transparent; /* For non-WebKit browsers */
+}
+.width{
+  width: 40%;
+}
+
+/* +++++++++++++++++++++++ Deals +++++++++++++++++++ */
+.btn-order-2{
+  box-shadow: 1px 1px 10px 1px black;
+}
+.btn-order-2:hover{
+  color: var(--yellow-color) !important;
+  background: black !important;
+  box-shadow: 1px 1px 10px 1px var(--yellow-light-color);
+}
+/* ---------------- Ready For Order  ---------------- */
+.bg-img{
+  background: url(../images/gellery/cta-two-bg.png) no-repeat;
+  background-size: cover;
+}
+.btn-hover{
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.btn-hover:hover{
+  background: black;
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+.btn-hover:focus{
+  background: var(--lighter-pink) !important;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}
+/* ++++++++++++++++ Footer ++++++++++++++++++++ */
+.foot__link-hover{
+  width: fit-content;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+} 
+.foot__link-hover:hover{
+  transform: scale(1.2);
+  color: rgb(255, 255, 255) !important;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+/* ++++++++++++++++++++++++++++ Footer ++++++++++++++++++++++++ */
+.img-width{
+  width: 20px;
+}
+.placeholder{
+  color: white;
+}
+.placeholder::placeholder{
+  color: white;
+}
+.btn-shadow-1{
+  box-shadow: 1px 1px 10px 1px var(--yellow-color);
+}
+.btn-shadow-1:hover{
+  color: var(--back-color);
+}
+
+
+/* +++++++++++++++++++++ Top ++++++++++++++ */
+#button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}

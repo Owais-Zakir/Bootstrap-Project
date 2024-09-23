@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ======================== -->
+  <!-- =         Title        = -->
+  <!-- ======================== -->
+  <title>foodwagon</title>
+
+
+  <!-- ======================== -->
+  <!-- =       Fevicon        = -->
+  <!-- ======================== -->
+  <link rel="shortcut icon" href="./fevicon/favicon-32x32.png" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- ======================== -->
+  <!-- =   Font-Awesome Link  = -->
+  <!-- ======================== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- ======================== -->
+  <!-- =  Bootstrap Css Link  = -->
+  <!-- ======================== -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+  <!-- ======================== -->
+  <!-- =  Utilities Css Link  = -->
+  <!-- ======================== -->
+  <link rel="stylesheet" href="./css/utilities.css" />
+
+  <!-- ======================== -->
+  <!-- =   Style Css Links    = -->
+  <!-- ======================== -->
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <!-- ======================== -->
+  <!-- = Responsive Css Link  = -->
+  <!-- ======================== -->
+  <link rel="stylesheet" href="./css/responcive.css" />
+</head>
+
+<body>
+  <!-- --------------------------  navbar  ----------------------------- -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <header class="fixed-top animate__animated animate__fadeInDown" id="navBar">
+    <div class="container-fluid back-color">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a href="#" class="navbar-brand"><img src="./images/logo/Logo.svg" alt="Logo.svg" /></a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#navHead">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse my-2 mt-lg-0 d-lg-flex" id="navHead">
+            <div class="mx-auto pt-5 pt-lg-2">
+              <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x3eb36b435b3bd44d:0x7f064341b886b51f?sa=X&ved=1t:8290&ictx=111"
+                target="_blank" class="nav-link mb-0 text-lg-center font-pro font-color-g-3"><span
+                  class="fw-bold">Deliver to: &nbsp</span><i class="fa-solid fa-location-dot font-color-1"></i> &nbsp
+                Current Location
+                <span class="fw-bold">Mohammadpur Bus Stand, Dhaka</span>
+              </a>
+            </div>
+            <form class="d-flex mt-4 mt-lg-2 justify-content-between">
+              <div class="pe-2 d-flex align-items-center header-input">
+                <i class="fa-solid fa-magnifying-glass font-color-1 ps-3 pe-0"></i>
+                <input class="form-control border-0" type="search" style="width: 8rem" placeholder="Search Food"
+                  aria-label="Search" />
+              </div>
+              <button class="btn font-color-1 px-3 head-btn" type="submit">
+                <i class="fas fa-user me-2"></i>Login
+              </button>
+            </form>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- ---------------------------  HERO  ------------------------------ -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <section class="overflow-hidden py-5" id="hero">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row m-0">
+          <div class="col-md-5 col-lg-6 order-0 order-md-1 ps-lg-5 mt-4 mmt-1 animate__animated animate__fadeIn animate__slow wow">
+            <img class="img-fluid img-shadow" src="./images/hero-header.png" alt="" />
+          </div>
+          <div class="col-md-7 col-lg-6 my-md-2 m-top m-md-top text-mob-center animate__animated animate__fadeInLeft wow">
+            <h1 class="font-color-2 fw-bold fs-7 ps-md-3">
+              Are you starving?
+            </h1>
+            <p class="font-color-g-1 fs-5 ps-md-3">
+              Within a few clicks, find meals that are accessible near you
+            </p>
+            <div class="card">
+              <div class="card-header px-3 py-2 text-muted back-color">
+                <nav class="nav justify-content-center justify-content-lg-start justify-content-md-start">
+                  <button class="btn btn-hover-2 fw-bold px-3 me-2 btn-focus">
+                    <i class="fas fa-motorcycle me-2"></i> Delivery
+                  </button>
+                  <button class="btn btn-hover-2 fw-bold px-3 btn-focus">
+                    <i class="fas fa-shopping-bag me-2"></i>Pickup
+                  </button>
+                </nav>
+              </div>
+              <div class="card-body card-pt-0">
+                <div class="row">
+                  <div class="card-form">
+                    <form class="d-flex mt-4 mt-lg-2 flex-wrap flex-lg-nowrap">
+                      <div
+                        class="pe-2 mb-2 mb-lg0 d-flex align-items-center boder-rad me-lg-5 me-md-1 bg-color-g-1 card-inside">
+                        <i class="fa-solid fa-location-dot me-1 font-color-p font-color-1 ps-3 pe-0"></i>
+                        <input class="form-control border-0" type="search" style="width: auto; background: transparent"
+                          placeholder="Enter Your Address" aria-label="Search" />
+                      </div>
+                      <button class="btn px-3 bg-linear font-color-2 card-btn" type="submit">
+                        <i class="fa-solid fa-magnifying-glass me-2"></i>Find
+                        Food
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <a id="button"></a>
+  <!-- ------------------------- Discount Items  ------------------------- -->
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <section id="discount-item">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row py-4 mt-5">
+          <!-- ---------------------------- Card 1  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 p-2 p-sm-4  animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <div class="card__img-container position-relative">
+                <img style="border-radius: 5%" src="./images/gellery/discount-item-4.png" class="card-img-top"
+                  alt="img-1.png" />
+                <div
+                  class="discount__offer d-flex align-items-center py-lg-1 ps-lg-2 pe-lg-3 ps-md-2 pe-md-5 ps-2 pe-4 font-color-2 position-absolute">
+                  <h4 class="fs-8 fw-bold m-0 p-0">15</h4>
+                  <div class="text-center ps-1">
+                    <p class="m-0 p-0 fs-6" style="line-height: 1;"><span
+                        class="fw-400 fs-4">%</span><br><span>Off</span></p>
+                  </div>
+                </div>
+              </div>
+              <h2 class="card-title mt-4 fs-5 fw-bold">Greys Vage</h2>
+              <h3 class="discount__remaining card-text fs-6 fw-bold p-2 rounded" style="width: fit-content">
+                6 Days Remaining
+              </h3>
+            </div>
+          </div>
+          <!-- ---------------------------- Card 2  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 p-2 p-sm-4  animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <div class="card__img-container position-relative">
+                <img style="border-radius: 5%" src="./images/gellery/discount-item-2.png" class="card-img-top"
+                  alt="img-1.png" />
+                <div
+                  class="discount__offer d-flex align-items-center py-lg-1 ps-lg-2 pe-lg-3 ps-md-2 pe-md-5 ps-2 pe-4 font-color-2 position-absolute">
+                  <h4 class="fs-8 fw-bold m-0 p-0">10</h4>
+                  <div class="text-center ps-1">
+                    <p class="m-0 p-0 fs-6" style="line-height: 1;"><span
+                        class="fw-400 fs-4">%</span><br><span>Off</span></p>
+                  </div>
+                </div>
+              </div>
+              <h2 class="card-title mt-4 fs-5 fw-bold">Greys Vage</h2>
+              <h3 class="discount__remaining card-text fs-6 fw-bold p-2 rounded" style="width: fit-content">
+                6 Days Remaining
+              </h3>
+            </div>
+          </div>
+          <!-- ---------------------------- Card 3  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 p-2 p-sm-4  animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <div class="card__img-container position-relative">
+                <img style="border-radius: 5%" src="./images/gellery/discount-item-1.png" class="card-img-top"
+                  alt="img-1.png" />
+                <div
+                  class="discount__offer d-flex align-items-center py-lg-1 ps-lg-2 pe-lg-3 ps-md-2 pe-md-5 ps-2 pe-4 font-color-2 position-absolute">
+                  <h4 class="fs-8 fw-bold m-0 p-0">25</h4>
+                  <div class="text-center ps-1">
+                    <p class="m-0 p-0 fs-6" style="line-height: 1;"><span
+                        class="fw-400 fs-4">%</span><br><span>Off</span></p>
+                  </div>
+                </div>
+              </div>
+              <h2 class="card-title mt-4 fs-5 fw-bold">Greys Vage</h2>
+              <h3 class="discount__remaining card-text fs-6 fw-bold p-2 rounded" style="width: fit-content">
+                7 Days Remaining
+              </h3>
+            </div>
+          </div>
+          <!-- ---------------------------- Card 4  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 p-2 p-sm-4  animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <div class="card__img-container position-relative">
+                <img style="border-radius: 5%" src="./images/gellery/discount-item-3.png" class="card-img-top"
+                  alt="img-1.png" />
+                <div
+                  class="discount__offer d-flex align-items-center py-lg-1 ps-lg-2 pe-lg-3 ps-md-2 pe-md-5 ps-2 pe-4 font-color-2 position-absolute">
+                  <h4 class="fs-8 fw-bold m-0 p-0">20</h4>
+                  <div class="text-center ps-1">
+                    <p class="m-0 p-0 fs-6" style="line-height: 1;"><span
+                        class="fw-400 fs-4">%</span><br><span>Off</span></p>
+                  </div>
+                </div>
+              </div>
+              <h2 class="card-title mt-4 fs-5 fw-bold">Greys Vage</h2>
+              <h3 class="discount__remaining card-text fs-6 fw-bold p-2 rounded" style="width: fit-content">
+                8 Days Remaining
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ------------------------ How Dose It Work  ---------------------- -->
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <section id="work">
+    <div class="container-fluid bg-color-lp">
+      <div class="container py-5">
+        <!-- ================== Heading Row ================== -->
+        <div class="row">
+          <h1 class="text-center fs-2 fw-bold font-color-lp animate__animated animate__fadeIn  animate__slow wow">
+            How Does It Work
+          </h1>
+        </div>
+        <!-- ================== Service Row ================== -->
+        <div class="row">
+          <!-- ------------------------- Service 1  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 pb-4 p-2 p-sm-4  animate__animated animate__fadeInDown wow">
+            <div class="text-center">
+              <img src="./images/gellery/location.svg" alt="Location.svg" />
+              <h4 class="fs-5 fw-bold pt-4 pb-0">Select Location</h4>
+              <p class="fs-6 text-muted">
+                Choose the location where your food will be delivered
+              </p>
+            </div>
+          </div>
+          <!-- ------------------------- Service 2  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 pb-4 p-2 p-sm-4  animate__animated animate__fadeInDown wow">
+            <div class="text-center">
+              <img src="./images/gellery/order.svg" alt="Order.svg" />
+              <h4 class="fs-5 fw-bold pt-4 pb-0">Choose order</h4>
+              <p class="fs-6 text-muted">
+                Check over hundreds of menus to pick your favorite food
+              </p>
+            </div>
+          </div>
+          <!-- ------------------------- Service 3  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 pb-4 p-2 p-sm-4  animate__animated animate__fadeInDown wow">
+            <div class="text-center">
+              <img src="./images/gellery/pay.svg" alt="Pay.svg" />
+              <h4 class="fs-5 fw-bold pt-4 pb-0">Pay advanced</h4>
+              <p class="fs-6 text-muted">
+                It's quick, safe, and simple. Select several methods of paymen
+              </p>
+            </div>
+          </div>
+          <!-- ------------------------- Service 4  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 pb-4 p-2 p-sm-4  animate__animated animate__fadeInDown wow">
+            <div class="text-center">
+              <img src="./images/gellery/meals.svg" alt="Meals.svg" />
+              <h4 class="fs-5 fw-bold pt-4 pb-0">Enjoy meals</h4>
+              <p class="fs-6 text-muted">
+                Food is made and delivered directly to your home.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ------------------------- Popular Items  ------------------------- -->
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <section id="popular-items">
+    <div class="container-fluid">
+      <div class="container">
+        <!-- ================== Heading Row ================== -->
+        <div class="row">
+          <h1 class="text-center fs-2 fw-bold  animate__animated animate__fadeIn  animate__slow wow">Popular Items</h1>
+        </div>
+        <!-- =================== Items Row =================== -->
+        <div class="row pb-5">
+          <!-- ==============x===== Items col 1 =================== -->
+          <div class="col-12 p-5 p-sm-2 p-md-3 p-lg-1 pb-1 col-md-6 col-lg animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <img class="card-img-top mb-2" style="border-radius: 3%" src="./images/gellery/cheese-burger.png"
+                alt="img.png" />
+              <h2 class="card-title fw-bold fs-6">Cheese Burger</h2>
+              <p class="card-subtitle font-color-1">
+                <i class="fas fa-location-dot"></i> &nbsp; Burger Arena
+              </p>
+              <p class="card-text fw-bold">&dollar;3.88</p>
+              <button class="btn order-btn bg-color-p font-color-2 btn-shadow">
+                Order Now
+              </button>
+            </div>
+          </div>
+          <!-- =================== Items col 2 =================== -->
+          <div class="col-12 p-5 p-sm-2 p-md-3 p-lg-1 pb-1 col-md-6 col-lg animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <img class="card-img-top mb-2" style="border-radius: 3%" src="./images/gellery/toffes-cake.png"
+                alt="img.png" />
+              <h2 class="card-title fw-bold fs-6">Coffe’s Cake</h2>
+              <p class="card-subtitle font-color-1">
+                <i class="fas fa-location-dot"></i> &nbsp; Top Sticks
+              </p>
+              <p class="card-text fw-bold">&dollar;4.00</p>
+              <button class="btn order-btn bg-color-p font-color-2 btn-shadow">
+                Order Now
+              </button>
+            </div>
+          </div>
+          <!-- =================== Items col 3 =================== -->
+          <div class="col-12 p-5 p-sm-2 p-md-3 p-lg-1 pb-1 col-md-6 col-lg animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <img class="card-img-top mb-2" style="border-radius: 3%" src="./images/gellery/dancake.png"
+                alt="img.png" />
+              <h2 class="card-title fw-bold fs-6">Dancake</h2>
+              <p class="card-subtitle font-color-1">
+                <i class="fas fa-location-dot"></i> &nbsp; Cake World
+              </p>
+              <p class="card-text fw-bold">&dollar;1.99</p>
+              <button class="btn order-btn bg-color-p font-color-2 btn-shadow">
+                Order Now
+              </button>
+            </div>
+          </div>
+          <!-- =================== Items col 4 =================== -->
+          <div class="col-12 p-5 p-sm-2 p-md-3 p-lg-1 pb-1 col-md-6 col-lg animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <img class="card-img-top mb-2" style="border-radius: 3%"
+                src="./images/gellery/crispy-sandwitch - Copy.png" alt="img.png" />
+              <h2 class="card-title fw-bold fs-6">Crispy Sandwitch</h2>
+              <p class="card-subtitle font-color-1">
+                <i class="fas fa-location-dot"></i> &nbsp; Fastfood Dine
+              </p>
+              <p class="card-text fw-bold">&dollar;3.00</p>
+              <button class="btn order-btn bg-color-p font-color-2 btn-shadow">
+                Order Now
+              </button>
+            </div>
+          </div>
+          <!-- =================== Items col 5 =================== -->
+          <div class="col-12 p-5 p-sm-2 p-md-3 p-lg-1 pb-1 col-md-6 col-lg animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <img class="card-img-top mb-2" style="border-radius: 3%" src="./images/gellery/thai-soup.png"
+                alt="img.png" />
+              <h2 class="card-title fw-bold fs-6">Thai Soup</h2>
+              <p class="card-subtitle font-color-1">
+                <i class="fas fa-location-dot"></i> &nbsp; Foody man
+              </p>
+              <p class="card-text fw-bold">&dollar;2.79</p>
+              <button class="btn order-btn bg-color-p font-color-2 btn-shadow">
+                Order Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <!-- ------------------------ Featured Restaurants  -------------------- -->
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <section id="Featured">
+    <div class="container-fluid">
+      <div class="container">
+        <!-- ================== Heading Row ================== -->
+        <div class="row mt-5">
+          <h1 class="text-center fs-2 fw-bold mb-5  animate__animated animate__fadeIn  animate__slow wow">Featured Restaurants</h1>
+        </div>
+        <!-- =================== Items Row =================== -->
+        <div class="row pt-3">
+          <!-- ---------------------------- Card 1  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 p-2 p-sm-4 animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <div class="card__img-container position-relative">
+                <img style="border-radius: 5%" src="./images/gellery/food-world.png" class="card-img-top"
+                  alt="img-1.png" />
+                <div class="card__off position-absolute d-flex">
+                  <h5 class="fs-6 fw-bold ms-3 px-2 py-1 rounded font-color-2 bg-color-p">
+                    <i class="fas fa-tag me-2 fs-6"></i>20% off
+                  </h5>
+                  <h5 class="fs-6 ms-2 px-2 py-1 rounded font-color-2 bg-color-yellow">
+                    <i class="fas fa-clock me-1 fs-6"></i> Fast
+                  </h5>
+                </div>
+              </div>
+              <div class="d-flex my-3">
+                <div>
+                  <img src="./images/gellery/food-world-logo.png" alt="Logo.png" />
+                </div>
+                <div class="text-center ms-3 pt-2">
+                  <h4 class="fw-bold fs-6">Foodworld</h4>
+                  <h4 class="fs-6 font-color-1">
+                    <i class="fas fa-star"></i>&nbsp; 46
+                  </h4>
+                </div>
+              </div>
+              <h3 class="featured-items-1 card-text fs-6 fw-bold p-2 rounded" style="width: fit-content">
+                Opens tomorrow
+              </h3>
+            </div>
+          </div>
+          <!-- ---------------------------- Card 2  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 p-2 p-sm-4 animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <div class="card__img-container">
+                <img style="border-radius: 5%" src="./images/gellery/pizza-hub.png" class="card-img-top"
+                  alt="img-1.png" />
+                <div class="card__off position-absolute d-flex">
+                  <h5 class="fs-6 fw-bold ms-3 px-2 py-1 rounded font-color-2 bg-color-p">
+                    <i class="fas fa-tag me-2 fs-6"></i>15% off
+                  </h5>
+                  <h5 class="fs-6 ms-2 px-2 py-1 rounded font-color-2 bg-color-yellow">
+                    <i class="fas fa-clock me-1 fs-6"></i> Fast
+                  </h5>
+                </div>
+              </div>
+              <div class="d-flex my-3">
+                <div>
+                  <img src="./images/gellery/pizzahub-logo.png" alt="Logo.png" />
+                </div>
+                <div class="text-center ms-3 pt-2">
+                  <h4 class="fw-bold fs-6">pizza-hub</h4>
+                  <h4 class="fs-6 font-color-1">
+                    <i class="fas fa-star"></i>&nbsp; 40
+                  </h4>
+                </div>
+              </div>
+              <h3 class="featured-items-1 card-text fs-6 fw-bold p-2 rounded" style="width: fit-content">
+                Opens tomorrow
+              </h3>
+            </div>
+          </div>
+          <!-- ---------------------------- Card 3  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 p-2 p-sm-4 animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <div class="card__img-container">
+                <img style="border-radius: 5%" src="./images/gellery/donuts-hut.png" class="card-img-top"
+                  alt="img-1.png" />
+                <div class="card__off position-absolute d-flex">
+                  <h5 class="fs-6 fw-bold ms-3 px-2 py-1 rounded font-color-2 bg-color-p">
+                    <i class="fas fa-tag me-2 fs-6"></i>10% off
+                  </h5>
+                  <h5 class="fs-6 ms-2 px-2 py-1 rounded font-color-2 bg-color-yellow">
+                    <i class="fas fa-clock me-1 fs-6"></i> Fast
+                  </h5>
+                </div>
+              </div>
+              <div class="d-flex my-3">
+                <div>
+                  <img src="./images/gellery/donuts-hut-logo.png" alt="Logo.png" />
+                </div>
+                <div class="text-center ms-3 pt-2">
+                  <h4 class="fw-bold fs-6">Donuts hut</h4>
+                  <h4 class="fs-6 font-color-1">
+                    <i class="fas fa-star"></i>&nbsp; 20
+                  </h4>
+                </div>
+              </div>
+              <h3 class="featured-items-2 card-text fs-6 fw-bold p-2 rounded" style="width: fit-content">
+                Open Now
+              </h3>
+            </div>
+          </div>
+          <!-- ---------------------------- Card 4  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 p-2 p-sm-4 animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <div class="card__img-container">
+                <img style="border-radius: 5%" src="./images/gellery/donuthut.png" class="card-img-top"
+                  alt="img-1.png" />
+                <div class="card__off position-absolute d-flex">
+                  <h5 class="fs-6 fw-bold ms-3 px-2 py-1 rounded font-color-2 bg-color-p">
+                    <i class="fas fa-tag me-2 fs-6"></i>15% off
+                  </h5>
+                  <h5 class="fs-6 ms-2 px-2 py-1 rounded font-color-2 bg-color-yellow">
+                    <i class="fas fa-clock me-1 fs-6"></i> Fast
+                  </h5>
+                </div>
+              </div>
+              <div class="d-flex my-3">
+                <div>
+                  <img src="./images/gellery/donut-hut-logo.png" alt="Logo.png" />
+                </div>
+                <div class="text-center ms-3 pt-2">
+                  <h4 class="fw-bold fs-6">Donuts hut</h4>
+                  <h4 class="fs-6 font-color-1">
+                    <i class="fas fa-star"></i>&nbsp; 40
+                  </h4>
+                </div>
+              </div>
+              <h3 class="featured-items-2 card-text fs-6 fw-bold p-2 rounded" style="width: fit-content">
+                Open Now
+              </h3>
+            </div>
+          </div>
+          <!-- ---------------------------- Card 5  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 p-2 p-sm-4 animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <div class="card__img-container position-relative">
+                <img style="border-radius: 5%" src="./images/gellery/ruby-tuesday.png" class="card-img-top"
+                  alt="img-1.png" />
+                <div class="card__off position-absolute d-flex">
+                  <h5 class="fs-6 fw-bold ms-3 px-2 py-1 rounded font-color-2 bg-color-p">
+                    <i class="fas fa-tag me-2 fs-6"></i>10% off
+                  </h5>
+                  <h5 class="fs-6 ms-2 px-2 py-1 rounded font-color-2 bg-color-yellow">
+                    <i class="fas fa-clock me-1 fs-6"></i> Fast
+                  </h5>
+                </div>
+              </div>
+              <div class="d-flex my-3">
+                <div>
+                  <img src="./images/gellery/ruby-tuesday-logo.png" alt="Logo.png" />
+                </div>
+                <div class="text-center ms-3 pt-2">
+                  <h4 class="fw-bold fs-6">Ruby Tuesday</h4>
+                  <h4 class="fs-6 font-color-1">
+                    <i class="fas fa-star"></i>&nbsp; 26
+                  </h4>
+                </div>
+              </div>
+              <h3 class="featured-items-1 card-text fs-6 fw-bold p-2 rounded" style="width: fit-content">
+                Opens tomorrow
+              </h3>
+            </div>
+          </div>
+          <!-- ---------------------------- Card 6  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 p-2 p-sm-4 animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <div class="card__img-container">
+                <img style="border-radius: 5%" src="./images/gellery/kuakata.png" class="card-img-top"
+                  alt="img-1.png" />
+                <div class="card__off position-absolute d-flex">
+                  <h5 class="fs-6 fw-bold ms-3 px-2 py-1 rounded font-color-2 bg-color-p">
+                    <i class="fas fa-tag me-2 fs-6"></i>25% off
+                  </h5>
+                  <h5 class="fs-6 ms-2 px-2 py-1 rounded font-color-2 bg-color-yellow">
+                    <i class="fas fa-clock me-1 fs-6"></i> Fast
+                  </h5>
+                </div>
+              </div>
+              <div class="d-flex my-3">
+                <div>
+                  <img src="./images/gellery/kuakata-logo.png" alt="Logo.png" />
+                </div>
+                <div class="text-center ms-3 pt-2">
+                  <h4 class="fw-bold fs-6">Kuakata Fried Chicken</h4>
+                  <h4 class="fs-6 font-color-1">
+                    <i class="fas fa-star"></i>&nbsp; 53
+                  </h4>
+                </div>
+              </div>
+              <h3 class="featured-items-1 card-text fs-6 fw-bold p-2 rounded" style="width: fit-content">
+                Opens tomorrow
+              </h3>
+            </div>
+          </div>
+          <!-- ---------------------------- Card 7  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 p-2 p-sm-4 animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <div class="card__img-container">
+                <img style="border-radius: 5%" src="./images/gellery/red-square.png" class="card-img-top"
+                  alt="img-1.png" />
+                <div class="card__off position-absolute d-flex">
+                  <h5 class="fs-6 fw-bold ms-3 px-2 py-1 rounded font-color-2 bg-color-p">
+                    <i class="fas fa-tag me-2 fs-6"></i>10% off
+                  </h5>
+                  <h5 class="fs-6 ms-2 px-2 py-1 rounded font-color-2 bg-color-yellow">
+                    <i class="fas fa-clock me-1 fs-6"></i> Fast
+                  </h5>
+                </div>
+              </div>
+              <div class="d-flex my-3">
+                <div>
+                  <img src="./images/gellery/red-square-logo.png" alt="Logo.png" />
+                </div>
+                <div class="text-center ms-3 pt-2">
+                  <h4 class="fw-bold fs-6">Red Square</h4>
+                  <h4 class="fs-6 font-color-1">
+                    <i class="fas fa-star"></i>&nbsp; 45
+                  </h4>
+                </div>
+              </div>
+              <h3 class="featured-items-2 card-text fs-6 fw-bold p-2 rounded" style="width: fit-content">
+                Open Now
+              </h3>
+            </div>
+          </div>
+          <!-- ---------------------------- Card 8  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 col-md-6 col-lg-3 p-2 p-sm-4 animate__animated animate__fadeInDown wow">
+            <div class="card border-0">
+              <div class="card__img-container">
+                <img style="border-radius: 5%" src="./images/gellery/taco-bell.png" class="card-img-top"
+                  alt="img-1.png" />
+                <div class="card__off position-absolute d-flex">
+                  <h5 class="fs-6 fw-bold ms-3 px-2 py-1 rounded font-color-2 bg-color-p">
+                    <i class="fas fa-tag me-2 fs-6"></i>10% off
+                  </h5>
+                  <h5 class="fs-6 ms-2 px-2 py-1 rounded font-color-2 bg-color-yellow">
+                    <i class="fas fa-clock me-1 fs-6"></i> Fast
+                  </h5>
+                </div>
+              </div>
+              <div class="d-flex my-3">
+                <div>
+                  <img src="./images/gellery/taco-bell-logo.png" alt="Logo.png" />
+                </div>
+                <div class="text-center ms-3 pt-2">
+                  <h4 class="fw-bold fs-6">Taco Bell</h4>
+                  <h4 class="fs-6 font-color-1">
+                    <i class="fas fa-star"></i>&nbsp; 35
+                  </h4>
+                </div>
+              </div>
+              <h3 class="featured-items-2 card-text fs-6 fw-bold p-2 rounded" style="width: fit-content">
+                Open Now
+              </h3>
+            </div>
+          </div>
+          <!-- ---------------------------- Button  ----------------------------- -->
+          <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+          <div class="col-12 d-flex justify-content-center my-5 animate__animated animate__fadeInDown wow">
+            <a href="#" class="btn btn-lg bg-color-yellow font-color-2 hover-class">View All<i
+                class="fas fa-chevron-right ms-2"> </i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ---------------------------- Round Border  ------------------------ -->
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <section id="rounded">
+    <div class="container-fluid bg-color-light-yellow">
+      <div class="container bg-color-light-yellow">
+        <div class="row py-5 flex-center align-items-center">
+          <div class="row h-100 text-center">
+            <!-- +++++++++++++++ card 1 ++++++++++++++++ -->
+            <div class="col-sm-6 col-md-4 col-xl mb-5 h-100  animate__animated animate__fadeInDown wow">
+              <div class="h-100 rounded-circle">
+                <img class="img-fluid rounded-circle h-100" src="./images/gellery/search-pizza.png" alt="..." />
+                <div class="card-body ps-0">
+                  <h5 class="text-center fw-bold fs-6 mt-2 text-truncate mb-2">
+                    Pizza
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <!-- +++++++++++++++ card 2 ++++++++++++++++ -->
+            <div class="col-sm-6 col-md-4 col-xl mb-5 h-100  animate__animated animate__fadeInDown wow">
+              <div class="h-100 rounded-circle">
+                <img class="img-fluid rounded-circle h-100" src="./images/gellery/burger.png" alt="..." />
+                <div class="card-body ps-0">
+                  <h5 class="text-center fw-bold fs-6 mt-2 text-truncate mb-2">
+                    Burger
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <!-- +++++++++++++++ card 3 ++++++++++++++++ -->
+            <div class="col-sm-6 col-md-4 col-xl mb-5 h-100  animate__animated animate__fadeInDown wow">
+              <div class="h-100 rounded-circle">
+                <img class="img-fluid rounded-circle h-100" src="./images/gellery/noodles.png" alt="..." />
+                <div class="card-body ps-0">
+                  <h5 class="text-center fw-bold fs-6 mt-2 text-truncate mb-2">
+                    Noodles
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <!-- +++++++++++++++ card 4 ++++++++++++++++ -->
+            <div class="col-sm-6 col-md-4 col-xl mb-5 h-100  animate__animated animate__fadeInDown wow">
+              <div class="h-100 rounded-circle">
+                <img class="img-fluid rounded-circle h-100" src="./images/gellery/sub-sandwich.png" alt="..." />
+                <div class="card-body ps-0">
+                  <h5 class="text-center fw-bold fs-6 mt-2 text-truncate mb-2">
+                    Sub-sandiwch
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <!-- +++++++++++++++ card 5 ++++++++++++++++ -->
+            <div class="col-sm-6 col-md-4 col-xl mb-5 h-100  animate__animated animate__fadeInDown wow">
+              <div class="h-100 rounded-circle">
+                <img class="img-fluid rounded-circle h-100" src="./images/gellery/chowmein.png" alt="..." />
+                <div class="card-body ps-0">
+                  <h5 class="text-center fw-bold fs-6 mt-2 text-truncate mb-2">
+                    Chowmein
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <!-- +++++++++++++++ card 6 ++++++++++++++++ -->
+            <div class="col-sm-6 col-md-4 col-xl mb-5 h-100  animate__animated animate__fadeInDown wow">
+              <div class="h-100 rounded-circle">
+                <img class="img-fluid rounded-circle h-100" src="./images/gellery/steak.png" alt="..." />
+                <div class="card-body ps-0">
+                  <h5 class="text-center fw-bold fs-6 mt-2 text-truncate mb-2">
+                    Steak
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> top >>>>>>>>>>>>>>>>>>> -->
+          <div class="row mt-5 justify-content-between">
+            <div class="col  animate__animated animate__fadeInDown wow">
+              <h4 class="fs-2 fw-bold m-0">Search by Food</h4>
+            </div>
+            <div class="col  justify-content-end text-center d-flex">
+              <a href="#" class="nav-link d-flex align-items-center me-3  animate__animated animate__fadeInDown wow">
+                <h5 class="fs-6 fw-bold font-color-1 m-0">
+                  View All<i class="fas fa-chevron-right ms-2"></i>
+                </h5>
+              </a>
+              <button type="button" class="btn-2 me-2 p-2 text-center align-items-center justify-content-center  animate__animated animate__fadeInRight wow"><span class="d-block carousel-control-prev-icon" ></span></button>
+              <button type="button" class="btn-2 me-2 p-2 text-center align-items-center justify-content-center  animate__animated animate__fadeInLeft wow"><span class="d-block carousel-control-next-icon" ></span></button>
+            </div>
+          </div>
+          <!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>> Bottom >>>>>>>>>>>>>>>>>>> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ---------------------------- Add For App  ------------------------- -->
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <section id="add">
+    <div class="container-fluid add-bg  position-relative ">
+      <img src="./images/gellery/Curve.svg" class="w-100 position-absolute bottom-0 start-0" alt="image.png">
+      <div class="container position-relative">
+        <div class="row py-3 pb-lg-3 px-3 pt-lg-5">
+          <div class="row back-color py-4 px-4 mt-lg-5 mb-lg-5 rounded-5 shadow-yellow  animate__animated animate__fadeInDown wow">
+            <div class="col-lg-4 d-flex justify-content-md-center  animate__animated animate__fadeInRight wow">
+              <div class="row align-items-center justify-content-center mb-4 mb-md-0 mb-lg-0">
+                <div class="col-6 p-0">
+                  <img src="./images/icons/discounts.png" class="img-width-0_2" alt="Discount.png">
+                </div>
+                <div class="col-6 text-center text-lg-start pt-4 pt-md-4 pt-lg-3">
+                  <h3 class="m-0 p-0 fw-bold font-gradient">Daily</h3>
+                  <h3 class=" fw-bold font-gradient">Discounts</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex justify-content-md-center border-start  animate__animated animate__bounceIn wow">
+              <div class="row align-items-center justify-content-center mb-4 mb-md-0 mb-lg-0">
+                <div class="col-6 p-0 ps-2">
+                  <img src="./images/icons/live-tracking.png" class="img-width-0_2" alt="Discount.png">
+                </div>
+                <div class="col-6 text-center text-lg-start pt-4 pt-md-4 pt-lg-3">
+                  <h3 class="m-0 p-0 fw-bold font-gradient">Live</h3>
+                  <h3 class=" fw-bold font-gradient">Tracing</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 d-flex justify-content-md-center border-start  animate__animated animate__fadeInLeft wow">
+              <div class="row align-items-center justify-content-center mb-4 mb-md-0 mb-lg-0">
+                <div class="col-6">
+                  <img src="./images/icons/quick-delivery.png" class="img-width-0_2" alt="Discount.png">
+                </div>
+                <div class="col-6 text-center text-lg-start pt-4 pt-md-4 pt-lg-3">
+                  <h3 class="m-0 p-0 fw-bold font-gradient">Quick</h3>
+                  <h3 class=" fw-bold font-gradient">Delivery</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12 col-lg-6 pt-4 order-2 order-lg-0 animate__animated animate__fadeIn animate__slow wow">
+            <img src="./images/gellery/phone-cta-one.png" class="w-100" alt="">
+          </div>
+          <div class="offset-lg-1 col-12 col-lg-5 order-1 order-lg-1 text-md-center text-lg-start animate__animated animate__fadeInRight wow">
+            <h1 class="font-color-1 fs-9 mt-lg-5 mt-1 pt-lg-5 pt-2 fw-bold font-bold">Install the app</h1>
+            <p>It s never been easier to order food. Look for the <br> 
+              finest discounts and you'll be lost in a world of <br>
+              delectable food.</p>
+              <a href="#!">
+                <img src="./images/gellery/google-play.svg" class="mt-2 shadow-yellow me-2 width" alt="PlayStore.png">
+              </a>
+              <a href="#!">
+                <img src="./images/gellery/app-store.svg" class="mt-2 shadow-yellow width" alt="AppStore.png">
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- ---------------------------- Add For App  ------------------------- -->
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <section id="deals">
+    <div class="container-fluid mb-6">
+      <div class="container">
+        <!-- ........................ Card 1 ............................ -->
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <div class="card border-0 shadow rounded mt-5  animate__animated animate__fadeInDown wow">
+          <div class="row">
+            <div class="col-12 col-lg-4 align-items-center ps-2 ps-md-3 ps-lg-4 order-2 order-lg-0">
+              <div class="card-body">
+                <h1 class="fs-2 fw-bold mt-2 mt-lg-5">
+                  Best deals
+                  <span class="font-color-1">Crispy Sandwiches</span>
+                </h1>
+                <p class="text-muted mt-3">
+                  Enjoy the large size of sandwiches. Complete perfect slice
+                  of sandwiches.
+                </p>
+                <button type="button"
+                  class="btn btn-order-2 mt-2 mt-md-3 mt-lg-5 mb-2 mb-lg-4 px-5 py-2 bg-color-yellow border-0">
+                  <p class="m-0 p-0 fw-bold font-color-2">
+                    Proceed to order <i class="fas fa-chevron-right ms-2"></i>
+                  </p>
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-lg-8 overflow-hidden order-1 order-lg-0">
+              <img class="card-img rounded-start-0 h-100" src="./images/gellery/crispy-sandwiches.png"
+                alt="SandWiches.png">
+            </div>
+          </div>
+        </div>
+        <!-- ........................ Card 2 ............................ -->
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <div class="card border-0 shadow rounded mt-5  animate__animated animate__fadeInDown wow">
+          <div class="row">
+            <div class="col-12 col-lg-8 overflow-hidden">
+              <img class="card-img rounded-end-0 h-100" src="./images/gellery/fried-chicken.png" alt="SandWiches.png">
+            </div>
+            <div class="col-12 col-lg-4 align-items-center ps-2 ps-md-3 ps-lg-2">
+              <div class="card-body">
+                <h1 class="fs-2 fw-bold mt-2 mt-lg-5">
+                  Celebrate parties with
+                  <span class="font-color-1">Fried Chicken</span>
+                </h1>
+                <p class="text-muted mt-3">
+                  Get the best fried chicken smeared with a lip smacking lemon chili flavor. Check out best deals for
+                  fried chicken.
+                </p>
+                <button type="button"
+                  class="btn btn-order-2 mt-2 mt-md-3 mt-lg-5 mb-2 mb-lg-4 px-5 py-2 bg-color-yellow border-0">
+                  <p class="m-0 p-0 fw-bold font-color-2">
+                    Proceed to order <i class="fas fa-chevron-right ms-2"></i>
+                  </p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ........................ Card 3 ............................ -->
+        <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+        <div class="card border-0 shadow rounded mt-5  animate__animated animate__fadeInDown animate__fadeOutUp wow">
+          <div class="row">
+            <div class="col-12 col-lg-4 align-items-center ps-2 ps-md-3 ps-lg-4 order-2 order-lg-0">
+              <div class="card-body">
+                <h1 class="fs-2 fw-bold mt-2 mt-lg-5">
+                  Wanna eat hot & spicy
+                  <span class="font-color-1">Pizza?</span>
+                </h1>
+                <p class="text-muted mt-3">
+                  Pair up with a friend and enjoy the
+                  hot and crispy pizza pops. Try it
+                  with the best deals.
+                </p>
+                <button type="button"
+                  class="btn btn-order-2 mt-2 mt-md-3 mt-lg-5 mb-2 mb-lg-4 px-5 py-2 bg-color-yellow border-0">
+                  <p class="m-0 p-0 fw-bold font-color-2">
+                    Proceed to order <i class="fas fa-chevron-right ms-2"></i>
+                  </p>
+                </button>
+              </div>
+            </div>
+            <div class="col-12 col-lg-8 overflow-hidden order-1 order-lg-0">
+              <img class="card-img rounded-start-0 h-100" src="./images/gellery/pizza.png" alt="SandWiches.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -------------------------- Ready For Order  ----------------------- -->
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <section id="readyForOrder">
+    <div class="container-fluid bg-img">
+      <div class="container">
+        <div class="row animate__animated animate__fadeInLeft wow">
+          <div class="offset-2 offset-lg-3 col-8 col-lg-6 text-center">
+            <h1 class="font-color-2 fw-bold pt-5 pb-3">
+              Are you ready to order with the best deals?
+            </h1>
+            <button type="button" class="btn btn-hover mb-4 mb-lg-4 px-3 py-2 bg-color-p border-0">
+              <p class="m-0 p-0 fw-bold font-color-2">
+                Proceed to order <i class="fas fa-chevron-right ms-2"></i>
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ----------------------------- Footer ------------------------------ -->
+  <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <footer>
+    <div class="container-fluid bg-color-gray">
+      <div class="container animate__animated animate__fadeInUp wow">
+        <div class="row pt-5 font-color-2">
+          <h3 class="h5 fw-bold">Our top cities</h3>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-6 col-lg-auto mb-4">
+            <ul class="list-unstyled mt-lg-3">
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">San Francisco</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Miami</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">San Diego</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">East Bay</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Long Beach</p>
+                </a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-auto mb-4">
+            <ul class="list-unstyled mt-lg-3">
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Los Angeles</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Washington DC</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Seattle</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Portland</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Nashville</p>
+                </a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-auto mb-4">
+            <ul class="list-unstyled mt-lg-3">
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">New York City</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Orange County</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Atlanta</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Charlotte</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Denver</p>
+                </a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-auto mb-4">
+            <ul class="list-unstyled mt-lg-3">
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Chicago</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Phoenix</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Las Vegas</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Sacramento</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Oklahoma City</p>
+                </a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-auto mb-4">
+            <ul class="list-unstyled mt-lg-3">
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Columbus</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">New Mexico</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Albuquerque</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Sacramento</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">New Orleans</p>
+                </a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class=" font-color-2" />
+        <div class="row pt-5 font-color-2 justify-content-lg-between">
+          <div class="col-4 col-lg-auto">
+            <h3 class="h5 fw-bold">Company</h3>
+            <ul class="list-unstyled mt-lg-4">
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">About us</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Team</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Careers</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Blog</p>
+                </a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-lg-auto">
+            <h3 class="h5 fw-bold">Contact</h3>
+            <ul class="list-unstyled mt-lg-4">
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Help & Support</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Partner with us</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Ride with us</p>
+                </a></li>
+            </ul>
+          </div>
+          <div class="col-4 col-lg-auto">
+            <h3 class="h5 fw-bold">Legal</h3>
+            <ul class="list-unstyled mt-lg-4">
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Terms & Conditions</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Refund & Cancellation</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Privacy Policy</p>
+                </a></li>
+              <li><a href="#" class="nav-link foot__link-hover footer-text">
+                  <p class="m-0">Cookie Policy</p>
+                </a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-auto">
+            <p class="fs-6 mb-4 fw-bold">FOLLOW US</p>
+            <div class="text-start my-2">
+              <svg class="svg-inline--fa fa-instagram fa-w-14 fs-2 me-2 img-width" aria-hidden="true" focusable="false"
+                data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512">
+                <path fill="#BDBDBD"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                </path>
+              </svg>
+              <svg class="svg-inline--fa fa-facebook fa-w-16 fs-2 mx-2 img-width" aria-hidden="true" focusable="false"
+                data-prefix="fab" data-icon="facebook" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">
+                <path fill="#BDBDBD"
+                  d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z">
+                </path>
+              </svg>
+              <svg class="svg-inline--fa fa-twitter fa-w-16 fs-2 mx-2 img-width" aria-hidden="true" focusable="false"
+                data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512">
+                <path fill="#BDBDBD"
+                  d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                </path>
+              </svg>
+            </div>
+            <p class="fs-6 footer-text my-4">Receive exclusive offers in your mailbox</p>
+            <form action="#" class="d-flex">
+              <div class="d-flex align-items-center bg-color-g-2 me-2 mb-5 rounded">
+                <i class="fas fa-envelope input-box-icon text-500 ms-3"></i>
+                <input class="form-control bg-transparent border-0 placeholder" type="email"
+                  placeholder="Enter Your Email" aria-label="email" />
+              </div>
+              <div class="col-auto">
+                <button class="btn bg-warning font-color-2 btn-shadow-1" type="submit">Subscribe</button>
+              </div>
+            </form>
+          </div>
+          <hr class=" font-color-2" />
+          <div class="row flex-center pb-3">
+            <div class="col-md-6 order-0 font-color-2">
+              <p class="text-200 text-center text-md-start">All rights Reserved &copy; Your Company, 2021</p>
+            </div>
+            <div class="col-md-6 order-1">
+              <p class="text-200 text-center text-md-end font-color-2"> Made with&nbsp;
+                <svg class="bi bi-suit-heart-fill" xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                  fill="#FFB30E" viewBox="0 0 16 16">
+                  <path
+                    d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z">
+                  </path>
+                </svg>&nbsp;by&nbsp;<a class="text-200 fw-bold text-decoration-none font-color-2" href="#"
+                  target="_blank">ThemeWagon </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+
+
+
+  <!-- ----------JavaScript--------- -->
+  <!-- +++++++++++++++++++++++++++++ -->
+
+  <!-- ----------  WoW Cdn --------- -->
+  <!-- +++++++++++++++++++++++++++++ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="./js/scroll.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
