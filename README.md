@@ -6,11 +6,11 @@ This project is a responsive and modern website built using Bootstrap. It demons
 
 ## Features
 
-- ![Responsive Design](https://img.icons8.com/ios-filled/20/000000/responsive.png) **Responsive Design**: Seamlessly adapts to different screen sizes and devices.
-- ![Modern UI](https://img.icons8.com/ios-filled/20/000000/modern.png) **Modern UI**: A clean and user-friendly interface.
-- ![Easy Navigation](https://img.icons8.com/ios-filled/20/000000/navigation.png) **Easy Navigation**: Simple and intuitive navigation structure.
-- ![Cross-Browser Compatibility](https://img.icons8.com/ios-filled/20/000000/internet-explorer.png) **Cross-Browser Compatibility**: Smooth performance across all modern browsers.
-- ![Mobile-Friendly](https://img.icons8.com/ios-filled/20/000000/smartphone.png) **Mobile-Friendly**: Optimized for mobile devices.
+- **Responsive Design**: Seamlessly adapts to different screen sizes and devices.
+- **Modern UI**: A clean and user-friendly interface.
+- **Easy Navigation**: Simple and intuitive navigation structure.
+- **Cross-Browser Compatibility**: Smooth performance across all modern browsers.
+- **Mobile-Friendly**: Optimized for mobile devices.
 
 ## Live Demo
 
@@ -50,8 +50,8 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 
 For any inquiries, suggestions, or collaboration opportunities, please contact me at:
 
-- ![GitHub](https://img.icons8.com/ios-filled/20/000000/github.png) **GitHub**: [owais-zakir](https://github.com/owais-zakir)
-- ![Email](https://img.icons8.com/ios-filled/20/000000/email.png) **Email**: [owaiszakir99@gmail.com](mailto:owaiszakir99@gmail.com)
+- **GitHub**: [owais-zakir](https://github.com/owais-zakir)
+- **Email**: [owaiszakir99@gmail.com](mailto:owaiszakir99@gmail.com)
 
 ---
 
